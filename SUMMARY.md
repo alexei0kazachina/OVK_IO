@@ -7,6 +7,6 @@
 
 * [Сообщество Linux и Возможно заработать в Open Source ?](o-linux./soobshestvo-linux-i-vozmozhno-zarabotat-v-open-source.md)
 
-## Group 1
+## О автоматике
 
-* [Python - Micropython](group-1/python-micropython.md)
+* [Python - Micropython](o-avtomatike/python-micropython.md)
