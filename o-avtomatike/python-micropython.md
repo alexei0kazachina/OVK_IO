@@ -4,6 +4,8 @@ description: программирование микроконтроллеров
 
 # Python - Micropython
 
+В автоматизации искусственного холода не обойтись без программироания микроконтролеров, для наглядности, в виду легкости освоения, попробуем python а именно реализацию для микроконтроллеров micropython.
+
 ```python
 // 
 # Сохраните текст ниже в файл vashe_nazvanie.py
@@ -15,11 +17,11 @@ def fib(n):
         a, b = b, a+b
         print()
 fib(999999999)
-#
+#вывод чисел Фибоначи от 0 до 701408733
 fruits = ['Banana', 'Apple', 'Lime']
 loud_fruits = [fruit.upper() for fruit in fruits]
 print(loud_fruits)
-#
+#вывод ['BANANA', 'APPLE', 'LIME']
 print (1 / 2)
 
 print (2 ** 3)
@@ -27,7 +29,7 @@ print (2 ** 3)
 print (17 / 3)
 
 print (17 // 3)
-#
+#вывод 
 numbers = [2, 4, 6, 8]
 product = 1
 for number in numbers: product = product * number
@@ -38,6 +40,8 @@ print("Hello, I'm Python!") #py
 
 name = input('What is your name?\\n')
 print(f'Hi, {name}.')
+# Будет запрошено What is your name?\\n ввести имя, после нажатия ВВОД 
+# вывод Hi, alexei.
 
 ```
 
@@ -230,9 +234,8 @@ print(f'Hi, {name}.')
 ['BANANA', 'APPLE', 'LIME']
 ```
 
-```
-0.5
-```
+<pre><code><strong>0.5
+</strong></code></pre>
 
 ```
 8
